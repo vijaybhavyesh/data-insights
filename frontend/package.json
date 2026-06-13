@@ -1,0 +1,30 @@
+{
+  "name": "datainsight-pro",
+  "version": "1.0.0",
+  "description": "AI-powered data analysis and visualization platform",
+  "type": "module",
+  "scripts": {
+    "setup": "node setup-dirs.js",
+    "dev": "npm run setup && vite",
+    "build": "npm run setup && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.302.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16"
+  }
+}

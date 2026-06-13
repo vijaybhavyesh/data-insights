@@ -1,0 +1,47 @@
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Python
+# =========================
+venv/
+env/
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# =========================
+# Uploads
+# =========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
